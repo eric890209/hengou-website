@@ -1,6 +1,6 @@
 const slides = [
-  "images/products/paper-cushion/02.jpg",
   "images/products/paper-cushion/03.jpg",
+  "images/products/paper-cushion/02.jpg",
   "images/products/paper-cushion/04.jpg",
   "images/products/paper-cushion/05.jpg",
   "images/products/paper-cushion/06.jpg",
