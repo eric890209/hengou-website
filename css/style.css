@@ -130,3 +130,14 @@ footer{
   display:flex;
   align-items:center;
 }
+.product-image{
+    width:100%;
+    max-width:700px;
+    display:block;
+    margin:auto;
+    border-radius:12px;
+}
+
+#products{
+    text-align:center;
+}
