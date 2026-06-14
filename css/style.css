@@ -125,8 +125,14 @@ footer{
   nav{margin-top:12px}
   nav a{margin-left:0;margin-right:14px}
 }
+.logo{
+  display:flex;
+  align-items:center;
+}
+
 .logo img{
-  height:48px;
+  height:56px;
   width:auto;
   display:block;
+  object-fit:contain;
 }
