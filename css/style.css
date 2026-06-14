@@ -243,3 +243,42 @@ footer{
     font-size:34px;
   }
 }
+.feature-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:16px;
+  margin:28px 0;
+}
+
+.feature-box{
+  background:#f9fafb;
+  border:1px solid #e5e7eb;
+  border-radius:12px;
+  padding:18px;
+  text-align:left;
+}
+
+.feature-box h4{
+  margin:0 0 8px;
+  color:#111827;
+}
+
+.feature-box p{
+  margin:0;
+}
+
+.faq{
+  max-width:760px;
+  margin:30px auto;
+  text-align:left;
+  background:#f9fafb;
+  border:1px solid #e5e7eb;
+  border-radius:12px;
+  padding:22px;
+}
+
+.faq h4{
+  margin-top:0;
+  font-size:22px;
+  color:#111827;
+}
