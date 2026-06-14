@@ -141,3 +141,12 @@ footer{
 #products{
     text-align:center;
 }
+.product-specs{
+  max-width:760px;
+  margin:24px auto;
+  text-align:left;
+}
+
+.product-specs li{
+  margin-bottom:10px;
+}
