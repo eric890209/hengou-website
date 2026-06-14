@@ -51,26 +51,25 @@
 
 <h2>主力產品</h2>
 
-<div class="card">
+<div class="carousel">
+  <button class="carousel-btn prev" onclick="changeSlide(-1)">‹</button>
 
-<img src="images/products/paper-cushion/main.jpg"
-     alt="紙箱緩衝包材"
-     class="product-image">
-<div class="gallery">
+  <img id="carousel-image"
+       src="images/products/paper-cushion/main.jpg"
+       alt="紙箱緩衝包材">
 
-  <img src="images/products/paper-cushion/main.jpg" alt="紙箱緩衝包材">
+  <button class="carousel-btn next" onclick="changeSlide(1)">›</button>
+</div>
 
-  <img src="images/products/paper-cushion/01.jpg" alt="紙箱緩衝包材">
-
-  <img src="images/products/paper-cushion/02.jpg" alt="紙箱緩衝包材">
-
-  <img src="images/products/paper-cushion/03.jpg" alt="紙箱緩衝包材">
-
-  <img src="images/products/paper-cushion/04.jpg" alt="紙箱緩衝包材">
-
-  <img src="images/products/paper-cushion/05.jpg" alt="紙箱緩衝包材">
-
-  <img src="images/products/paper-cushion/06.jpg" alt="紙箱緩衝包材">
+<div class="carousel-dots">
+  <span onclick="setSlide(0)" class="dot active"></span>
+  <span onclick="setSlide(1)" class="dot"></span>
+  <span onclick="setSlide(2)" class="dot"></span>
+  <span onclick="setSlide(3)" class="dot"></span>
+  <span onclick="setSlide(4)" class="dot"></span>
+  <span onclick="setSlide(5)" class="dot"></span>
+  <span onclick="setSlide(6)" class="dot"></span>
+</div>
 
 </div>
 <h3>紙箱緩衝包材</h3>
